@@ -43,3 +43,12 @@ ul {
   margin-top: 20px;
   text-align: center;
 }
+
+.button_box{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+}
+.li-button{
+  margin-left: 10px;
+}
