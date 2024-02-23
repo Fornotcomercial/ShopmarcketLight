@@ -1,7 +1,29 @@
+
+:root {
+  --main-txt-color: #212121;
+  --body-color: #ffffff;
+  --txt-color: #757575;
+  --heder-link-color: #f38a21;
+  --logo-footer-color: #000000;
+  --section1-background-color: #2f303a;
+  --footer-link-color: rgb(255, 255, 255, 0.6);
+  --section2-background-color: #ececec;
+  --section-background-color: #f5f4fa;
+  --activity-color: #ff0000;
+  --border-color: #afb1b8;
+  --color-opacity: rgba(0, 0, 0, 0.2);
+  --circle-coloir: rgba(0, 0, 0, 0.1);
+  --worck-card-color: rgba(47, 48, 58, 0.8);
+  --worck-color: rgba(33, 150, 243, 0.9);
+}
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+a {
+  text-decoration: none;
+  display: block;
 }
 .main_box {
   background-color: beige;
@@ -60,6 +82,7 @@ ul {
     background-color: antiquewhite;
     border-radius: 2px;
     border: 1px solid black;
+    color:black;
   }
     .button_active{
       padding-left: 10px;
@@ -72,8 +95,10 @@ ul {
         color: aliceblue;
     }
 
-        button:hover,
-        .button:focus {
+        p:hover,
+        .p:focus {
           background-color: var(--heder-link-color);
           color: var(--body-color);
-          box-shadow: 0px 4px 4px 0px #00000040;}
+          box-shadow: 0px 4px 4px 0px #00000040;
+        color: #ff0000;
+      border-radius: 15%;}
