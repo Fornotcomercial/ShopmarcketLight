@@ -58,6 +58,11 @@ a {
   margin-left: 37px;
   margin-top: 5px;
 }
+.pictures_text_bay {
+  margin-left: 145px;
+  margin-top: 5px;
+  color: red;
+}
 .macet {
   color: #ff0000;
   margin-bottom: 27px;
@@ -102,3 +107,47 @@ a {
           box-shadow: 0px 4px 4px 0px #00000040;
         color: #ff0000;
       border-radius: 15%;}
+.convas{
+background-image:url(../img/1.JPG);
+}
+
+.product-box {
+  width: 370px;
+  height: 294px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+.worck-text {
+  height: 294px;
+  position: absolute;
+  content: "";
+  padding-left: 24px;
+  padding-top: 63px;
+  padding-right: 24px;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  color: var(--body-color);
+  background-color: var(--worck-color);
+  margin: 0;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.55;
+  transform: translateY(296px);
+  transition-duration: 250ms;
+}
+
+.flex-element
+
+:hover 
+.worck-text {
+  transform: translateY(0);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 1;
+}
